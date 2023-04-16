@@ -9,4 +9,18 @@ button{
     text-align: center;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
+}
+.buttons-container{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+}
+.calculator-input{
+    background-color: aquamarine;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
 }
